@@ -1,10 +1,11 @@
 {
-  "name": "kaylaTill.github.io",
   "version": "1.0.0",
   "description": "You can use the [editor on GitHub](https://github.com/kaylaTill/kaylaTill.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/kaylaTill/kaylaTill.github.io#readme",
   "dependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.1.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
