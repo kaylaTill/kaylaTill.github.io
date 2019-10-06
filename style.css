@@ -125,3 +125,23 @@ body {
     left: 650px;
     top: 140px;
 }
+
+
+
+
+#portfolioTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    position: relative;
+    left: 310px;
+    top: 60px;
+    height: 50px;
+    
+}
+
+.carousel {
+    position: relative;
+    left: 100px;
+    height: 580px;
+    width: 1000px;
+}
