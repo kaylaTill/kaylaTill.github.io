@@ -64,6 +64,7 @@ body {
 
 /* ABOUT PAGE */
 .title {
+    font-family: monospace;
     color: white;
     position: relative;
     left: 640px;
@@ -79,6 +80,7 @@ body {
 
 #edu-title {
     color: white;
+    font-family: monospace;
     position: relative;
     left: 660px;
     top: 60px;
@@ -93,28 +95,15 @@ body {
 
 #tech-title {
     color: white;
+    font-family: monospace;
     position: relative;
     left: 590px;
     top: 90px;
 }
 
-#left {
-    position: relative;
-    top: 110px;
-    float: left;
-    width: 50%;
-    left: 550px;
-}
-#right {
-    position: relative;
-    top: 110px;
-    float: right;
-    width: 50%;
-    left: 50px;
-}
-
 .lang-title {
     color: white;
+    font-family: monospace;
     position: relative;
     left: 620px;
     top: 130px;
@@ -126,6 +115,82 @@ body {
     top: 140px;
 }
 
+.about {
+    font-family: monospace;
+}
+li {
+    font-family: monospace;
+}
+
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+#progress {
+  width: 100%; /* Full width */
+  position: relative;
+  top: 80px;
+  left: 20%;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+
+.js {
+    width: 80%;
+    background-color: rgb(30, 31, 31);
+}
+.html {
+    width: 70%;
+    background-color: rgb(30, 31, 31);
+}
+
+.react {
+    width: 85%;
+    background-color: rgb(30, 31, 31);
+}
+.react {
+    width: 70%;
+    background-color: rgb(30, 31, 31);
+}
+
+.jquery {
+    width: 85%;
+    background-color: rgb(30, 31, 31);
+}
+
+.testing {
+    width: 65%;
+    background-color: rgb(30, 31, 31);
+}
+.express {
+    width: 70%;
+    background-color: rgb(30, 31, 31);
+}
+
+.nodeJs {
+    width: 80%;
+    background-color: rgb(30, 31, 31);
+}
+
+.sql {
+    width: 85%;
+    background-color: rgb(30, 31, 31);
+}
+      
+.sequelize {
+    width: 90%;
+    background-color: rgb(30, 31, 31);
+}
 
 
 
