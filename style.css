@@ -96,8 +96,9 @@ body {
 #tech-title {
     color: white;
     font-family: monospace;
+    font-size: 30px;
     position: relative;
-    left: 590px;
+    left: 570px;
     top: 90px;
 }
 
